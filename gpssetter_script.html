@@ -1,0 +1,71 @@
+
+
+
+X_maxD = 1080.00 ; Y_maxD = 2400.00 ; 
+
+Scale_x = X_maxD / X_maxN;
+Scale_y = Y_maxD / Y_maxN;
+
+//***************PHANToM***************
+//**********line:phantom1669***********
+
+Swipe_ScaleX1_min = 130.00/Scale_x;
+Swipe_ScaleY_min = 2185.00/Scale_y;
+Swipe_ScaleX1_max = 190.00/Scale_x;
+Swipe_ScaleY_max = 2300.00/Scale_y;
+SwipeX1 = random(Swipe_ScaleX1_min,Swipe_ScaleX1_max);
+SwipeY1 = random(Swipe_ScaleY_min,Swipe_ScaleY_max);
+//Swipe X1 Y1//
+SwipeX2 = 1080/Scale_x;
+SwipeY2 = random(Swipe_ScaleY_min,Swipe_ScaleY_max);
+Swipe_Speed = random(25,100);
+//Swipe X2 Y2//
+//Swipe//
+
+Re_ScaleX_min = 290.00/Scale_x;
+Re_ScaleX_max = 790.00/Scale_x;
+ReX1 = random(Re_ScaleX_min,Re_ScaleX_max);
+ReY1 = 1610.00 / Scale_y;
+//Refresh X1 Y1//
+ReX2 = random(Re_ScaleX_min,Re_ScaleX_max);
+ReY2 = 2200.00 / Scale_y;
+//Refresh X2 Y2//
+//Refresh//
+
+TapGet_ScaleX_min = 80.00/Scale_x;
+TapGet_ScaleX_max = 1000.00/Scale_x;
+TapGet_ScaleY_min = 235.00/Scale_y;
+TapGet_ScaleY_max = 470.00/Scale_y;
+TapGetX = random(TapGet_ScaleX_min,TapGet_ScaleX_max);
+TapGetY = random(TapGet_ScaleY_min,TapGet_ScaleY_max);
+//TapGetjob X Y//
+
+TapOrigin_ScaleX_min = 170.00/Scale_x;
+TapOrigin_ScaleX_max = 910.00/Scale_x;
+TapOrigin_ScaleY_min = 635.00/Scale_y;
+TapOrigin_ScaleY_max = 805.00/Scale_y;
+TapOriginX = random(TapOrigin_ScaleX_min,TapOrigin_ScaleX_max);
+TapOriginY = random(TapOrigin_ScaleY_min,TapOrigin_ScaleY_max);
+//Tap Origin X Y//
+
+CopyOrigin_ScaleX_min = 200.00/Scale_x;
+CopyOrigin_ScaleX_max = 1000.00/Scale_x;
+CopyOrigin_ScaleY_min = 320.00/Scale_y;
+CopyOrigin_ScaleY_max = 440.00/Scale_y;
+CopyOriginX = random(CopyOrigin_ScaleX_min,CopyOrigin_ScaleX_max);
+CopyOriginY = random(CopyOrigin_ScaleY_min,CopyOrigin_ScaleY_max);
+//CopyOrigin X Y//
+
+bntStart_x = 130.00 / Scale_x;
+bntStart_y = 2220.00 / Scale_y;
+//Button Start X Y//
+
+Defaultlocation_x = 540.00 / Scale_x;
+Defaultlocation_y = 1245.00 / Scale_y;
+//Default User Location X Y//
+
+ReSleep = random(1500,3000);
+
+ReSpeed = random(50,350);
+
+
